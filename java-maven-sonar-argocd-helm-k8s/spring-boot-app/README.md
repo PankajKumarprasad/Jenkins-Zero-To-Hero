@@ -62,7 +62,9 @@ adduser sonarqube
 
 cd ~
 wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-10.4.1.88267.zip
+
 unzip *
+Note : if getting error after unzip , go to roo t user and instll..  apt install unzip 
 chown -R sonarqube:sonarqube /opt/sonarqube
 chmod -R 775 /opt/sonarqube
 cd /opt/sonarqube/bin/linux-x86-64
